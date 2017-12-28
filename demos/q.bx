@@ -1,0 +1,20 @@
+#@blox: code
+
+echo:"Do you like PIZZA?"
+set:pizza:{#:@q}
+when:pizza:
+	echo: "PIZZA IS OK ;)"
+end;
+
+set:placki:false
+when: @q: "Do you like PLACKI":
+	set:placki:true
+end;
+
+when:placki:
+	echo: ";)"
+end;
+
+else:placki:
+	echo: ";("
+end;

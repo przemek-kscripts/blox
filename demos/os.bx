@@ -1,0 +1,31 @@
+#@blox: code
+
+	when: @os: windows:
+		echo: " *  is Windows";
+	end;
+
+	else: @os: win:
+		echo: " *  is not Windows";
+	end;
+
+	else: @os: posix:
+		echo: " *  is not POSIX";
+	end;
+
+	when: @os: darwin:
+		echo: " *  is MacOSX";
+	end;
+
+	else: @os: mac:
+		echo: " *  is not MacOSX";
+	end;
+
+
+	else: @os: linux:
+		echo: " *  is not Linux";
+	end;
+
+	when: @os: linux:
+		echo: " *  is Linux";
+	end;
+

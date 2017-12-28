@@ -1,0 +1,14 @@
+%@blox: code:
+
+echo: "ECHO"
+echo:.
+echo: message: "ECHO: MESSAGE"
+echo: debug: "ECHO: DEBUG"
+echo: error: "ECHO: ERROR"
+echo: warning: "ECHO: WARNING"
+echo: write: "ECHO: WRITE"
+echo: print: "ECHO: PRINT"
+echo: output: "ECHO: OUTPUT"
+echo: notice: "ECHO: NOTICE"
+write: "WRITE"
+print: "PRINT"

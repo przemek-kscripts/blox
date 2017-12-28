@@ -1,0 +1,8 @@
+//@blox: output: code.js
+//@blox: import: library.js
+//@blox: insert: library#add
+//@blox: insert: library#mul
+
+//
+console.log( 'Hello World!' )
+console.log(add(2,mul(2,2))

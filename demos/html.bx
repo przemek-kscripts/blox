@@ -1,0 +1,39 @@
+<!-- @blox: output: index.html
+#@blox: code:
+	set:html.title:"MAIN TITLE"
+	include: header.html
+# @blox: end; -->
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ Maecenas aliquam neque at pretium iaculis
+ Etiam varius condimentum lectus, quis viverra nisi molestie eu
+ Maecenas magna est, consequat ut augue in, porttitor scelerisque diam
+ Integer in eros lorem
+ Etiam a tellus convallis, egestas erat eget, malesuada turpis
+ Curabitur euismod libero sit amet dolor fringilla bibendum
+ Phasellus ut rutrum eros
+ Quisque lectus mauris, ornare nec sem eu, hendrerit convallis sapien
+ Phasellus nec dolor tortor
+ Mauris tincidunt lectus est, viverra volutpat purus convallis vel
+
+</p>
+<p>
+Praesent in sollicitudin urna
+ Nulla felis massa, dictum scelerisque fermentum id, tempus eu arcu
+ Curabitur vitae elementum diam
+ Cras molestie imperdiet sem sit amet tristique
+ Duis euismod nulla id vulputate mollis
+ Nulla interdum a lectus sit amet commodo
+ Cras id neque ut eros facilisis sollicitudin at eget dolor
+ Sed in ante efficitur justo porta luctus id vitae ex
+ Aliquam consectetur neque at lorem suscipit, et feugiat libero feugiat
+ Fusce venenatis ultrices felis vel sagittis
+ Integer blandit turpis pretium, luctus ex in, scelerisque dolor
+ Donec vitae neque tempor, porttitor nisl eget, varius ante
+ Donec odio nulla, sodales ut elementum venenatis, dictum non magna
+
+</p>
+<!-- #@blox: code:
+	include: footer.html
+	echo: notice: "Generated: index.html" 
+# @blox: end; -->

@@ -1,0 +1,38 @@
+#@blox: code
+
+echo:.
+echo:"@input = {@:@input}"
+echo:"@input.name = {@:@input.name}"
+echo:"@input.path = {@:@input.path}"
+echo:"@input.isdir = {@:@input.isdir}"
+echo:"@input.dir = {@:@input.dir}"
+echo:"@input.directory = {@:@input.directory}"
+echo:"@input.extension = {@:@input.extension}"
+echo:"@input.ext = {@:@input.ext}"
+echo:"@input.base = {@:@input.base}"
+
+file: loop: *.html
+	echo:.
+	echo:"#file = {@:#file}"
+	echo:"#file.name = {@:#file.name}"
+	echo:"#file.path = {@:#file.path}"
+	echo:"#file.isdir = {@:#file.isdir}"
+	echo:"#file.dir = {@:#file.dir}"
+	echo:"#file.directory = {@:#file.directory}"
+	echo:"#file.extension = {@:#file.extension}"
+	echo:"#file.ext = {@:#file.ext}"
+	echo:"#file.base = {@:#file.base}"
+end;
+
+when: @output:
+	echo:.
+	echo:"@output = {@:@output}"
+	echo:"@output.name = {@:@output.name}"
+	echo:"@output.path = {@:@output.path}"
+	echo:"@output.isdir = {@:@output.isdir}"
+	echo:"@output.dir = {@:@output.dir}"
+	echo:"@output.directory = {@:@output.directory}"
+	echo:"@output.extension = {@:@output.extension}"
+	echo:"@output.ext = {@:@output.ext}"
+	echo:"@output.base = {@:@output.base}"
+end;

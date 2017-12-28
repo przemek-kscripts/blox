@@ -1,0 +1,20 @@
+#@blox:code:
+set:@rand.min:1
+set:@rand.max:3
+set:los:{@:@rand}
+
+if:@debug:
+	if:@rand:
+		echo:"BONUS!"
+	end;
+	echo:"@rand.max = {@:@rand.max}"
+	echo:"@rand.max = {@:@rand.min}"
+end;
+
+
+when:los:{@:@rand.min}
+	echo:"NOW ARE WINER"
+end;
+else:los:{@:@rand.min}
+	echo:"NOW ARE LOSER"
+end;

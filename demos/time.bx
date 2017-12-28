@@ -1,0 +1,1 @@
+//@blox: echo: "Time: {@:#date} {@:#time} ({@:#time.now})"

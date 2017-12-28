@@ -1,0 +1,11 @@
+#@blox: code:
+echo:.
+echo:"@:USERNAME = {@:USERNAME}"
+echo:"$:USERNAME = {$:USERNAME}"
+echo:"#:USERNAME = {#:USERNAME}"
+
+echo:.
+def:USERNAME:JANUSZ
+echo:"@:USERNAME = {@:USERNAME}"
+echo:"$:USERNAME = {$:USERNAME}"
+echo:"#:USERNAME = {#:USERNAME}"

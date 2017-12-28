@@ -1,0 +1,17 @@
+#@blox: code:
+begin: php.hello: define:
+	print: "<?php"
+	print: "	echo('Hello World from {@:@output}');"
+	print: "?>"
+end;
+
+output: pierwszy.php:
+	insert: php.hello
+end;
+
+output: drugi.php:
+	insert: php.hello
+	output: trzeci.php:
+		insert: php.hello
+	end;
+end;

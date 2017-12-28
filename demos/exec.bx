@@ -1,0 +1,18 @@
+#@blox:code
+exec: cls
+output: exec.dir
+def:@debug:enable
+
+;
+if: @os: win:
+	def:cmd:"dir /b"
+end;
+else: @os: win:
+	def:cmd:"ls --w=1"
+end;
+
+;
+exec: hide: "{@:cmd} *.js"
+exec: "{@:cmd} *.js"
+exec: print: "{@:cmd} *.php"
+exec: null: "{@:cmd} *.php"

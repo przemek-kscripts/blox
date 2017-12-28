@@ -1,0 +1,23 @@
+//@blox: output: output.txt
+; blox work in 'codemode':
+//  @blox: code:
+
+	echo: "#00";
+	print: "TEXT #00"
+
+//  @blox: end;
+
+; blox work in comments:
+//  @blox: echo: "#01"
+//  @blox: echo: "#02"  */TEXT #01
+/*  @blox: echo: "#03"
+/*  @blox: echo: "#04"  */TEXT #02
+<!--@blox: echo: "#05"
+<!--@blox: echo: "#06" -->TEXT #03
+#   @blox: echo: "#07"
+#   @blox: echo: "#08" """TEXT #04
+""" @blox: echo: "#09" """TEXT #05
+""" @blox: echo: "#10"
+::  @blox: echo: "#11"
+%   @blox: echo: "#12"
+

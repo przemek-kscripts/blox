@@ -1,0 +1,26 @@
+<?php
+#@blox: output: index.php
+#@blox: print:"<?php"
+
+/*	@blox: code:
+	begin: main
+	end;
+
+	file: loop: *.php
+		else: @output.path: "{@:#file.path}"
+			print: "	include('{@:#file}');"
+//	@blox: end;	*/
+
+	echo('Hello World');
+ 
+#@blox: code: remove
+
+	//@note:
+	//	REMOVE `PHP_DEBUG()` SECTION ON PRODUCTION
+	PHP_DEBUG();
+
+#@blox: end;
+
+	echo('BLOX is awesome!');
+
+#@blox: end;

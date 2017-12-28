@@ -1,0 +1,12 @@
+//@blox: code
+echo: "#CODE {@:@code.line}"
+begin: breaker
+	echo: "#CODE {@:@code.line}"
+	if:@os:
+		break;
+	end;
+	echo: "#CODE {@:@code.line}"
+end;
+echo: "#CODE {@:@code.line}"
+insert: breaker
+echo: "#CODE {@:@code.line}"
